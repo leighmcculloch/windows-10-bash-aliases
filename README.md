@@ -11,7 +11,9 @@ Run _Bash on Ubuntu on Windows_ commands directly from the _Windows 10_ CMD prom
 ## Supported Bash Commands
 
 1. [ssh][ssh]
+2. [git][git]
 
 Request other Bash commands by [creating a new Issue](https://github.com/leighmcculloch/windows-10-bash-aliases/issues/new).
 
 [ssh]: https://raw.githubusercontent.com/leighmcculloch/windows-10-bash-aliases/master/ssh.bat
+[git]: https://raw.githubusercontent.com/leighmcculloch/windows-10-bash-aliases/master/git.bat
