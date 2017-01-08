@@ -5,8 +5,8 @@ Run _Bash on Ubuntu on Windows_ commands directly from the _Windows 10_ CMD prom
 
 1. Save the scripts (e.g. [ssh.bat][ssh]) you wish to alias to `C:\BashAliases` (or some other path).
 2. Edit the system PATH to include the path where you saved the alias.
-3. Open a new cmd.exe.
-4. Use the command.
+3. Open a new cmd.exe window.
+4. Use the command (e.g. run `ssh`).
 
 ## Supported Bash Commands
 
