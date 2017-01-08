@@ -6,5 +6,4 @@ if %PROCESSOR_ARCHITECTURE%==x86 (
 	set bashexe=%windir%\Sysnative\bash.exe
 )
 
-@echo on
 %bashexe% -c "git %*"
