@@ -2,7 +2,12 @@
 setlocal enabledelayedexpansion
 
 set args=%*
-set args=!args:C:=/mnt/c!
+if not "%1"=="" set args=!args:C:=/mnt/c!
+
+set bashexe=bash.exe
+if %PROCESSOR_ARCHITECTURE%==x86 (
+	set bashexe=%windir%\Sysnative\bash.exe
+)
 
 @echo on
-C:\Windows\Sysnative\bash.exe -c "ssh %args%"
+%bashexe% -c "ssh %args%"
