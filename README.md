@@ -1,5 +1,8 @@
 # windows-10-bash-aliases
+
 Run _Bash on Ubuntu on Windows_ commands directly from the _Windows 10_ CMD prompt.
+
+Requires _Windows Subsystem for Linux_ to be installed and _Bash on Ubuntu on Windows_ to be setup. See the WSL [install guide](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide).
 
 ## Install
 
