@@ -10,4 +10,4 @@ if %PROCESSOR_ARCHITECTURE%==x86 (
 )
 
 @echo on
-%bashexe% -c "ssh %args%"
+%bashexe% -c "eval $(ssh-agent) > /dev/null && ssh-add && ssh %args%"
